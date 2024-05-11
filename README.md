@@ -1,6 +1,16 @@
-# Amazon Elastic Kubernetes Service Workshop
+# Forked - Amazon Elastic Kubernetes Service Workshop - Custom OTEL
 
 Welcome to the repository for the [Amazon Elastic Kubernetes Services workshop](https://eksworkshop.com). This contains the source for the website content as well as the accompanying infrastructure-as-code to set up a workshop lab environment in your AWS account. Please review the [Introduction](https://www.eksworkshop.com/docs/introduction/) chapter of the workshop for more details.
+
+## Steps for running on your local machine
+
+This is a fork from [Amazon's EKS Workshop](https://github.com/aws-samples/eks-workshop-v2). Follow the below steps for setting up things from your local machine.
+
+1. Install [awscli](https://aws.amazon.com/cli/)
+2. Install [eksctl](https://eksctl.io/)
+3. Install [kubectl](https://kubernetes.io/docs/reference/kubectl/)
+4. [Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) AWS Account
+5. Replace `function` with shell path. Example: If you see instruction like `use-cluster $EKS_CLUSTER_NAME` replace with `<root_folder>/lab/bin/use-cluster $EKS_CLUSTER_NAME`
 
 ## Introduction
 
